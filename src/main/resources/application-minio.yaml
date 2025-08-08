@@ -1,0 +1,7 @@
+s3:
+  endpoint: http://47.120.57.242:9000
+  access-key: m7i18vONx1yGZmVtZowN
+  secret-key: 3gWxHwBcUuOy9bnUXA0fvCR8mAp1ptJIajU8Optu
+  region: cn-south-1
+  bucket: test
+  duration-minutes: 15

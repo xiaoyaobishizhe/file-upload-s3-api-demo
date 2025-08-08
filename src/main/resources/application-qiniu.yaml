@@ -1,0 +1,7 @@
+s3:
+  endpoint: https://s3.cn-south-1.qiniucs.com
+  access-key: QyjfgPtV3YuahFeE6Peme_SRHYyfUfynfiiMrS7S
+  secret-key: 5woLttj0wv5pvkF2lFPrsNYcfKfPOpDMo-f3IdZC
+  region: cn-south-1
+  bucket: xybsztusd
+  duration-minutes: 15
