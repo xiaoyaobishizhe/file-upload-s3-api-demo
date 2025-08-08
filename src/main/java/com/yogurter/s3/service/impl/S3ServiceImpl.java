@@ -54,7 +54,7 @@ public class S3ServiceImpl implements S3Service {
             ListPartsDTO.Part p = new ListPartsDTO.Part();
             p.setPartNumber(part.partNumber());
             p.setSize(part.size());
-            p.seteTag(part.eTag());
+            p.setEtag(part.eTag());
             parts.add(p);
         }
 
@@ -92,7 +92,7 @@ public class S3ServiceImpl implements S3Service {
         for (CompleteUploadRequestDTO.Part part : dto.getParts()) {
             parts.add(CompletedPart.builder()
                     .partNumber(part.getPartNumber())
-                    .eTag(part.getETag())
+                    .eTag(part.getEtag())
                     .build());
         }
 

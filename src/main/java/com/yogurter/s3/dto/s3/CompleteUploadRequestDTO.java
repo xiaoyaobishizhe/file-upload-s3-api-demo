@@ -33,7 +33,7 @@ public class CompleteUploadRequestDTO {
 
     public static class Part {
         private Integer partNumber;
-        private String eTag;
+        private String etag;
 
         public Integer getPartNumber() {
             return partNumber;
@@ -43,12 +43,12 @@ public class CompleteUploadRequestDTO {
             this.partNumber = partNumber;
         }
 
-        public String getETag() {
-            return eTag;
+        public String getEtag() {
+            return etag;
         }
 
-        public void setETag(String eTag) {
-            this.eTag = eTag;
+        public void setEtag(String etag) {
+            this.etag = etag;
         }
     }
 }

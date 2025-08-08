@@ -16,7 +16,7 @@ public class ListPartsDTO {
     public static class Part {
         private Integer partNumber;
         private Long size;
-        private String eTag;
+        private String etag;
 
         public Integer getPartNumber() {
             return partNumber;
@@ -34,12 +34,12 @@ public class ListPartsDTO {
             this.size = size;
         }
 
-        public String geteTag() {
-            return eTag;
+        public String getEtag() {
+            return etag;
         }
 
-        public void seteTag(String eTag) {
-            this.eTag = eTag;
+        public void setEtag(String etag) {
+            this.etag = etag;
         }
     }
 }
